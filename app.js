@@ -1,7 +1,7 @@
 console.log('Ejecutando el servidor web')
 const express = require('express')
 const app = express()
-const port = process.env.PORT || 3000
+const port = 3000
 const mysql = require('mysql2/promise');
 
 // Create the connection pool. The pool-specific settings are the defaults
